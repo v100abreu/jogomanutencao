@@ -403,7 +403,7 @@ for i = 1:handles.ntrabalhadores
 end
 set(handles.text7,'String',handles.valorTotal);
 
-for i = 1:handles.nobjetos%CONTINUAR AQUI
+for i = 1:handles.nobjetos
     handles.objeto(i).atualiza;
     if handles.objeto(i).limite >= 1 && handles.objeto(i).quantidade > 0
         restante1 = handles.objeto(i).quantidade - randi(round(handles.objeto(i).qtdnecessaria*0.1));
