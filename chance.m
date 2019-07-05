@@ -3,7 +3,7 @@ function [ resultado ] = chance( idadeMax , idadeAtual, vetor )
 %CHANCE calcula a propabilidade de um equipamento falhar conforme ele se
 %aproxima da sua idade Maxima
 %   O grafico parte de uma probabilidade simples de dois eventos ocorrerem
-%   simultaneamente dentro de um periodo determinado, no caso do trabalho Ã©
+%   simultaneamente dentro de um periodo determinado, no caso do trabalho é
 %   a probabilidade do dia da falha coincidir com o dia atual. 
 
 

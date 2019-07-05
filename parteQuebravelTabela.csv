@@ -1,7 +1,7 @@
-nome,idade,custo,quantidade,qtdnecessaria,qualidade,horahomem,k1,k2,k3
-rodas,2,20,200,180,1,2,0.6,1,0.03
-parafuso,1,2,36,30,1,0,0.6,1,0.05
-esteira,2,200,3,3,1,15,0.6,1,0.03
-motor,1,1000,2,2,1,20,0.6,1,0.03
-luz,2,12,120,100,1,10,0.6,1,0.07
-freio,5,5,40,45,1,1,0.6,1,0.03
+nome,idade,idadeMax,custo,quantidade,qtdnecessaria,qualidade,horahomem,k1,k2,k3
+rodas,2,100,1,200,180,1,2,0.6,1,0.03
+parafuso,1,100,2,36,30,1,0,0.6,1,0.05
+esteira,2,100,200,3,3,1,15,0.6,1,0.03
+motor,1,100,1000,2,2,1,20,0.6,1,0.03
+luz,2,100,12,120,100,1,10,0.6,1,0.07
+freio,5,100,5,40,45,1,1,0.6,1,0.03

@@ -1,7 +1,7 @@
 function [ evento_determinado ] = geracalendario( qual_evento)
 %GERACALENDARIO Gera um calendario de problemas 
-%   Gera uma tabela onde as catastrofes s√£o selecionadas de acordo com o
-%   valor de qual_evento. Este √© previamente adequado a quantidade de
+%   Gera uma tabela onde as catastrofes s„o selecionadas de acordo com o
+%   valor de qual_evento. Este È previamente adequado a quantidade de
 %   catastrofes.
 
 

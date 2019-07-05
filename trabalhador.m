@@ -21,9 +21,9 @@ classdef trabalhador < handle
             nomeX = load("nomesAleatorios.mat");
             inicial.nome = nomeX.nomeAleatorio{randi(100)}; %escolhe um nome dentro de uma lista
             inicial.saude = randi(30)+70; %saude do trabalhador de 70% a 100%
-            inicial.horahomem = 30*7; % horas de trabalho que ele pode entregar em 1 mes
+            inicial.horahomem = 30*8; % horas de trabalho que ele pode entregar em 1 mes
             inicial.limsalario = 2000; %salario minimo limiar do trabalhador
-            inicial.limdemissao = 50; % Ã© a % de saude minima, abaixo disso ele se demite
+            inicial.limdemissao = 50; % é a % de saude minima, abaixo disso ele se demite
         end
             
         function obj = avalia(obj)
@@ -66,11 +66,11 @@ classdef trabalhador < handle
         function obj = atualizaexibir(obj,hora)
             if obj.horahomem ~= 0
                 obj.exibir =  {obj.nome + " trabalha aqui com  " + obj.saude + " de saude."
-                    "Seu salario Ã© de "+obj.salario + " R$"
-                    "Entrega " + obj.horahomem + " de horas por mÃªs"
+                    "Seu salario é de "+obj.salario + " R$"
+                    "Entrega " + obj.horahomem + " de horas por mês"
                     "de um total de " + hora + "horas"};
             else 
-                obj.exibir =  {obj.nome + " nÃ£o trabalha mais aqui."  } ;
+                obj.exibir =  {obj.nome + " não trabalha mais aqui."  } ;
             end
                     
         end
